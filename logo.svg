@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- 집 -->
+  <path d="M256 104 L412 232 Q420 239 420 250 V388 Q420 412 396 412 H116 Q92 412 92 388 V250 Q92 239 100 232 Z" fill="#FFFFFF"/>
+  <!-- 지붕 선 -->
+  <path d="M76 250 L256 100 L436 250" fill="none" stroke="#FFFFFF" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- 장부 막대(지출 흐름) -->
+  <rect x="160" y="318" width="40" height="62" rx="10" fill="#93C5FD"/>
+  <rect x="236" y="276" width="40" height="104" rx="10" fill="#3B82F6"/>
+  <rect x="312" y="238" width="40" height="142" rx="10" fill="#1D4ED8"/>
+</svg>
