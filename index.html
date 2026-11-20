@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>우리 집 가계부 — 소개와 개인정보처리방침</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", sans-serif; line-height: 1.7; max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; color: #1c1c1e; background: #fff; }
+  h1 { font-size: 1.6rem; margin-bottom: 0.2em; }
+  h2 { font-size: 1.15rem; margin-top: 2em; border-bottom: 1px solid #e5e5ea; padding-bottom: 0.3em; }
+  p, li { font-size: 1rem; }
+  .muted { color: #6e6e73; font-size: 0.9rem; }
+  code { background: #f2f2f7; padding: 0.1em 0.35em; border-radius: 4px; font-size: 0.9em; }
+  @media (prefers-color-scheme: dark) { body { background: #1c1c1e; color: #f2f2f7; } h2 { border-color: #3a3a3c; } code { background: #2c2c2e; } .muted { color: #98989d; } }
+</style>
+</head>
+<body>
+
+<h1>우리 집 가계부</h1>
+<p class="muted">Home Ledger — a personal, single-household finance app · 마지막 수정 2026-11-21</p>
+
+<h2>이 앱은 무엇인가요</h2>
+<p>한 가정이 자기 컴퓨터에서 직접 돌리는 개인용 가계부 프로그램입니다. 공개 서비스가 아니며, 가입을 받지 않고, 다른 사람에게 제공하지 않습니다. 프로그램과 자료는 모두 사용자 본인의 컴퓨터에 있습니다.</p>
+<p>하는 일: 카드 결제 알림과 명세서를 모아 지출을 정리하고, 가족 일정을 달력에 함께 보여 주고, 자료의 암호화된 백업을 보관합니다.</p>
+
+<h2>구글 계정으로 하는 일</h2>
+<p>사용자가 직접 연결한 본인의 구글 계정에 대해서만, 아래 권한을 씁니다.</p>
+<ul>
+  <li><strong>Gmail 읽기</strong>(<code>gmail.readonly</code>) — 카드사·은행이 보낸 결제 알림과 이용내역서 메일을 찾아 금액·날짜·가맹점을 가계부에 옮깁니다. 메일을 보내거나 지우거나 고치지 않습니다.</li>
+  <li><strong>캘린더 읽기</strong>(<code>calendar.readonly</code>) — 일정을 앱의 달력 화면에 보여 줍니다. 구글 캘린더에는 아무것도 쓰지 않습니다.</li>
+  <li><strong>이 앱이 만든 드라이브 파일</strong>(<code>drive.file</code>) — 암호화한 백업 파일과 사용자가 올린 문서 사본을 사용자의 드라이브에 저장합니다. 앱이 만들지 않은 다른 드라이브 파일은 볼 수 없습니다.</li>
+</ul>
+
+<h2>개인정보처리방침</h2>
+<p><strong>수집하는 자료.</strong> 위 권한으로 읽은 메일·일정의 내용과, 사용자가 직접 넣은 가계부 자료입니다. 이 자료는 사용자 본인의 컴퓨터에 있는 데이터베이스에만 저장됩니다. 운영자가 따로 모으는 서버는 없습니다.</p>
+<p><strong>쓰는 곳.</strong> 가계부·달력·백업 기능을 사용자 본인에게 보여 주는 데에만 씁니다. 광고, 판매, 분석 목적의 이용이나 제3자 제공은 하지 않습니다.</p>
+<p><strong>바깥으로 나가는 경우.</strong> 결제 알림 메일에서 금액·날짜·가맹점을 뽑아내기 위해, 해당 메일의 본문이 AI 모델 제공사(Anthropic)의 API 로 전송되어 처리될 수 있습니다. 이 처리는 결제 내용을 가계부에 옮기는 목적에만 쓰이며, 그 밖의 곳으로는 구글 계정의 자료를 보내지 않습니다. 백업 파일은 암호화한 뒤 사용자 본인의 구글 드라이브와 개인 클라우드 저장소에만 올립니다.</p>
+<p><strong>보관과 삭제.</strong> 자료는 사용자가 지울 때까지 사용자 컴퓨터에 남습니다. 사용자는 언제든 앱의 자료를 지울 수 있고, <a href="https://myaccount.google.com/permissions">구글 계정의 접근 권한 화면</a>에서 이 앱의 연결을 끊을 수 있습니다. 연결을 끊으면 앱은 더 이상 구글 계정의 자료를 읽지 못합니다.</p>
+<p><strong>구글 API 자료의 이용 제한.</strong> 이 앱이 구글 API 로 받은 정보의 이용과 다른 앱으로의 전달은 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 서비스 사용자 데이터 정책</a>(제한적 사용 요건 포함)을 따릅니다.</p>
+<p><strong>문의.</strong> 이 페이지의 <a href="https://github.com/csyouk/privacy/issues">저장소 이슈</a>로 남겨 주세요.</p>
+
+<h2>Privacy Policy (English summary)</h2>
+<p>Home Ledger is a personal finance app that a single household runs on its own computer. It is not a public service and has no sign-up.</p>
+<p>With the Google account that the owner connects, the app reads payment notification emails (<code>gmail.readonly</code>) to record expenses, reads calendar events (<code>calendar.readonly</code>) to display them, and stores encrypted backup files that it creates in the owner's Google Drive (<code>drive.file</code>). It never sends, deletes or modifies email, and never writes to Google Calendar.</p>
+<p>Data obtained through Google APIs is stored only in a database on the owner's own computer. It is not sold, not used for advertising, and not shared with third parties. To extract the amount, date and merchant from a payment email, the body of that email may be sent to an AI model provider's API (Anthropic) for processing; this is the only transfer of Google user data outside the owner's computer, and it serves only that purpose. Backups are encrypted before upload and go only to the owner's own cloud storage.</p>
+<p>The owner can delete the data at any time and can revoke access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. The app's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+<p>Contact: open an issue at <a href="https://github.com/csyouk/privacy/issues">github.com/csyouk/privacy</a>.</p>
+
+</body>
+</html>
